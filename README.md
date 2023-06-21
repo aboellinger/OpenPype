@@ -56,7 +56,7 @@ already, you need to install **3.9** version and make use of it. You can use per
 
 ### Windows
 
-You will need [Python >= 3.9.1](https://www.python.org/downloads/) and [git](https://git-scm.com/downloads).
+You will need [Python >= 3.9.1, < 3.10](https://www.python.org/downloads/) and [git](https://git-scm.com/downloads).
 More tools might be needed for installing dependencies (for example for **OpenTimelineIO**) - mostly
 development tools like [CMake](https://cmake.org/) and [Visual Studio](https://visualstudio.microsoft.com/cs/downloads/)
 
@@ -67,7 +67,7 @@ git clone --recurse-submodules git@github.com:Pypeclub/OpenPype.git
 
 #### To build OpenPype:
 
-1) Run `.\tools\create_env.ps1` to create virtual environment in `.\venv`.
+1) Run `.\tools\create_env.ps1` to create virtual environment in `.\poetry`.
 2) Run `.\tools\fetch_thirdparty_libs.ps1` to download third-party dependencies like ffmpeg and oiio. Those will be included in build.
 3) Run `.\tools\build.ps1` to build OpenPype executables in `.\build\`.
 
